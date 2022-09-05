@@ -1,0 +1,20 @@
+library(devtools)
+devtools::check()
+devtools::load_all()
+?say
+usethis::use_pipe()
+usethis::use_mit_license()
+use_testthat()
+devtools::document()
+?ohwhaley
+library(testthat)
+usethis::use_r("say")
+usethis::use_r("phrases")
+usethis::use_testthat()
+usethis::use_test("say")
+devtools::test()
+usethis::use_readme_md()
+usethis::use_readme_rmd()
+usethis::create_package("~/OneDrive/Documents/STAT1378/STAT1378 RStudio/CaitlinLuo")
+usethis::use_git()
+2
